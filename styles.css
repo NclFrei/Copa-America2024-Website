@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(./styles/header.css);
+@import url(./styles/grupos.css);
+@import url(./styles/noticias.css);
+@import url(./styles/menu.css);
+@import url(./styles/jogadores.css);
+@import url(./styles/estadios.css);
+@import url(./styles/rodape.css);
+
+
+:root{
+    --azul-escuro: #003282;
+    --azul-jogos: #0047B9;
+    --branco: #FFFFFF;
+
+    --fonte_primaria: "Montserrat", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte_primaria);
+    color: var(--branco);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.feed {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,54 @@
+.menu__tabela {
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+    .menu__tabela {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .menu__conteudo {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 100px; /* espaçamento entre os h2 */
+    }
+    
+    .menu__conteudo a{
+        color: #0056b3;
+        text-decoration: none;
+        font-size: 2em;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width: 600px) { 
+
+    .menu__conteudo {
+        gap: 70px; /* espaçamento entre os h2 */
+    }
+
+    .menu__conteudo a{
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 390px) { 
+
+    .menu__conteudo {
+        gap: 50px; /* espaçamento entre os h2 */
+    }
+
+    .menu__conteudo a{
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+}
+

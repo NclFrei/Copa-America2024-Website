@@ -1,0 +1,99 @@
+.estadios {
+    width: 80%;
+    margin: 50px 10px 0 7%;
+}
+
+.estadios h2 {
+    font-size: 2em;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.estadios__destaques {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__estadios {
+    width: 30%;
+    background-color: #CACACA;
+    border-radius: 10px;
+}
+
+.card__estadios h4 {
+    color: #003282;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 10px 0 0 8px;
+}
+
+.card__estadios h5::before {
+    content: url("../img/map-pin.png");
+    padding-right: 8px;
+}
+
+.card__estadios h5 {
+    color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 10px 0px 0px 8px;
+}
+
+.card__estadios h6::before{
+    content: url("../img/users.png");
+    padding-right: 8px;
+}
+
+.card__estadios h6 {
+    color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    margin: 10px 0px 0 8px;
+    padding-bottom: 10px;
+}
+
+
+.card__estadios img {
+    width: 100%;
+}
+
+@media (max-width: 1440px) {
+
+    .estadios {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 750px) { 
+
+    .estadios__destaques {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card__estadios {
+        width: 40%;
+    }
+
+    .card__estadios:nth-child(3) {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .card__estadios {
+        width: 80%;
+    }
+
+    .estadios__destaques {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card__estadios:nth-child(3) {
+        margin-top: 0;
+    }
+}

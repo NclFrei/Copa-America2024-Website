@@ -1,0 +1,102 @@
+
+.container__grupos {
+    width: 20%;
+    margin: 50px 0 0 115px;
+}
+
+.grupos {
+    background-color: var(--azul-escuro);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grupos__cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.grupos__cabecalho img {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.grupos__cabecalho h1 {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.grupos__descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grupos__descricao h2, .grupos__descricao h3 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.grupos__tabela {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #FFFFFF;
+    justify-content: space-between;
+}
+
+.grupos__tabela h4, .grupos__tabela h5, .grupos__tabela h6 {
+    margin: 0;
+}
+
+.grupos__tabela h5, .grupos__tabela h6 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+.grupos__tabela h4 {
+    font-size: 1em;
+    font-weight: 600;
+    flex: 0 0 10%;
+    text-align: left;
+}
+
+.grupos__tabela img {
+    width: 9%;
+}
+
+.grupos__tabela h5 {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.grupos__tabela h6 {
+    flex: 0 0 10%;
+    text-align: center;
+}
+
+@media (max-width: 1440px) {
+
+    .container__grupos {
+        width: 22%; /* Mantém a largura fixa para a tabela dos grupos */
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .container__grupos {
+        width: 25%; /* Mantém a largura fixa para a tabela dos grupos */
+        margin: 50px 0 0 80px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .container__grupos {
+        display: none;
+    }
+}

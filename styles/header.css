@@ -1,0 +1,134 @@
+.cabecalho {
+    background-color: var(--azul-escuro);
+    padding: 15px 0px 15px 70px;
+}
+
+.cabecalho_logo{
+    width: 10%;
+}
+
+.jogosCabecalho{
+    width: 90%;
+}
+
+.carrossel_jogos{
+    padding: 15px 0px 0px 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_jogo{
+    padding: 5px 0 5px 5px;
+    border-radius: 10px;
+    background-color: var(--azul-jogos);
+}
+
+.situacao_jogo{
+    font-size: 0.8em;
+    font-weight: 200;
+    padding-bottom: 1px;
+}
+
+.grupo_jogo{
+    font-size: 0.8em;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.placar__times {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    column-gap: 10px;
+}
+
+.placar__imagens{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.placar__imagens img {
+    width: 65%;
+}
+
+.placar__resultado {
+    text-align: center;
+    margin-right: 5px;
+}
+
+.banner {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+
+    .carrossel_jogos{
+        padding: 15px 0px 0px 20px;
+        
+    }
+
+    .card_jogo:nth-child(1) {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .cabecalho {
+        background-color: var(--azul-escuro);
+        padding: 15px 0px 15px 20px;
+    }
+
+    .cabecalho_logo{
+        width: 20%;
+    }
+
+    .jogosCabecalho{
+        width: 100%;
+    }
+
+    .carrossel_jogos{
+        padding: 0 0 0 0;
+    }
+
+    .situacao_jogo{
+        font-size: 0.7em;
+    }
+    
+    .grupo_jogo{
+        font-size: 0.7em;
+    }
+
+    .placar__imagens img {
+        width: 60%;
+    }
+
+    .card_jogo:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .cabecalho_logo{
+        width: 30%;
+    }
+
+    .card_jogo:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .cabecalho {
+        background-color: var(--azul-escuro);
+        padding: 15px 0px 15px 0px;
+    }
+    .carrossel_jogos{
+        padding: 15px 0px 0px 0px;
+    }
+}
+
+

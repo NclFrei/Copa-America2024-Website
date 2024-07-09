@@ -1,0 +1,174 @@
+.jogadores {
+    width: 85%;
+    margin: 50px 10px 0 7%;
+}
+
+.jogadores h2 {
+    font-size: 2em;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.Jogadores__destaques {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__jogadores {
+    width: 22%;
+    background-color: #CACACA;
+    border-radius: 10px;
+}
+
+.card__jogadores__informacoes {
+    display: flex;
+}
+
+
+.jogadores__informacoes__texto {
+    padding: 14px 0 0 15px;
+}
+
+.jogadores__informacoes__texto img {
+    width: 50%;
+}
+
+.jogadores__informacoes__texto h3 {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 400;
+}
+
+.jogadores__informacoes__texto h4 {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 600;
+}
+
+.card__jogadores__informacoes img {
+    width: 61%;
+}
+
+.card__jogadores__nome{
+    margin: 5px 0 0 15px;
+}
+
+.card__jogadores__nome h4 {
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+}
+
+.card__jogadores__nome h5 {
+    font-size: 2.3em;
+    color: #000;
+    font-weight: 600;
+}
+
+.card__jogadores__nome h6 {
+    font-size: 1em;
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 16px;
+    
+}
+
+@media (max-width: 1440px) {
+
+    .jogadores {
+        width: 90%;
+    }
+
+    .card__jogadores {
+        width: 23%;  
+    }
+}
+
+@media (max-width: 1250px) {
+
+    .card__jogadores {
+        width: 28%;  
+    }
+
+    .card__jogadores:nth-child(1) {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) { 
+
+    .Jogadores__destaques {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .card__jogadores {
+        width: 40%;  
+    }
+
+    .card__jogadores:nth-child(4) {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 550px) { 
+
+    .jogadores {
+        width: 97%;
+        margin: 50px 3% 0 3%;
+    };
+
+
+    .card__jogadores {
+        width: 75%;  
+    }
+
+    
+}
+
+@media (max-width: 480px) {
+
+    .card__jogadores {
+        width: 65%;  
+    }
+
+    .card__jogadores__informacoes img {
+        width: 65%;
+    }
+
+    .Jogadores__destaques {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__jogadores:nth-child(3) {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) { 
+
+
+    .Jogadores__destaques {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__jogadores {
+        width: 70%;  
+    }
+
+
+    .card__jogadores:nth-child(4) {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 390px) { 
+
+    .card__jogadores {
+        width: 80%;  
+    }
+
+}
